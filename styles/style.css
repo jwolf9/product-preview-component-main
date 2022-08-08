@@ -5,16 +5,37 @@ html {
 
 body {
   background-color: #f2ebe3;
+}
+
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
-  max-width: 600px;
+  max-width: 700px;
   height: 300px;
   background-color: white;
+  margin: auto;
+}
+
+.card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 20px;
 }
 
 .perfume-img {
