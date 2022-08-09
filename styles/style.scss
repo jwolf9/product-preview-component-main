@@ -49,7 +49,7 @@ body {
     position: relative;
     top: 10px;
     font-family: $body-font;
-    font-size: small;
+    font-size: xx-small;
     font-weight: 500;
     color: $grayish-blue;
     letter-spacing: 0.3rem;
@@ -66,11 +66,35 @@ body {
 .description {
     position: relative;
     top: 20px;
+    font-family: $body-font;
+    color: $grayish-blue;
 }
 
 .price {
     position: relative;
     top: 40px;
+    display: flex;
+    align-items: center;
+    
+
+    .discounted-price {
+        font-family: $title-font;
+        font-size: large;
+        color: $dark-cyan;
+    }
+
+    .full-price {
+        position: relative;
+        left: 10px;
+        color: $grayish-blue;
+        text-decoration: line-through;
+    }
+}
+
+.add-cart {
+    position: relative;
+    background-color: $dark-cyan;
+    top: 70px;
 }
 
 .attribution { 
