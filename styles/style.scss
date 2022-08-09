@@ -50,7 +50,7 @@ body {
     position: relative;
     top: 10px;
     font-family: $body-font;
-    font-size: xx-small;
+    font-size: 0.7rem;
     font-weight: 500;
     color: $grayish-blue;
     letter-spacing: 0.3rem;
@@ -60,7 +60,7 @@ body {
     position: relative;
     top: 10px;
     font-family: $title-font;
-    font-size: large;
+    font-size: 1.8rem;
     color: $dark-blue;
 }
 
@@ -79,7 +79,7 @@ body {
 
     .discounted-price {
         font-family: $title-font;
-        font-size: large;
+        font-size: 1.8rem;
         color: $dark-cyan;
     }
 
@@ -98,7 +98,7 @@ body {
     color: $white;
     font-family: $body-font;
     font-weight: 700;
-    font-size: smaller;
+    font-size: 0.8rem;
     background-color: $dark-cyan;
     border: 2px;
     border-radius: 5px;
