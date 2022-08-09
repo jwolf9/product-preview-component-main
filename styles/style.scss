@@ -6,7 +6,7 @@ $dark-blue: hsl(212, 21%, 14%);
 $grayish-blue: hsl(228, 12%, 48%);
 $white: hsl(0, 0%, 100%);
 
-$logo-font: 'Fraunces', serif;
+$title-font: 'Fraunces', serif;
 $body-font: 'Montserrat', sans-serif;
 
 html {
@@ -24,7 +24,7 @@ body {
 
 .card {
     display: flex;
-    max-width: 700px;
+    max-width: 400px;
     height: 300px;
     background-color: $white;
     margin: auto;
@@ -35,13 +35,42 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .perfume-img {
     max-height: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.category {
+    position: relative;
+    top: 10px;
+    font-family: $body-font;
+    font-size: small;
+    font-weight: 500;
+    color: $grayish-blue;
+    letter-spacing: 0.3rem;
+}
+
+.title {
+    position: relative;
+    top: 10px;
+    font-family: $title-font;
+    font-size: large;
+    color: $dark-blue;
+}
+
+.description {
+    position: relative;
+    top: 20px;
+}
+
+.price {
+    position: relative;
+    top: 40px;
 }
 
 .attribution { 
