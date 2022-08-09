@@ -29,6 +29,7 @@ body {
     background-color: $white;
     margin: auto;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .card-info {
@@ -101,9 +102,14 @@ body {
     background-color: $dark-cyan;
     border: 2px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    // .cart-img {
-    // }
+    .cart-img {
+        max-width: 10px;
+        padding-right: 5px;
+    }
 }
 
 .attribution { 
