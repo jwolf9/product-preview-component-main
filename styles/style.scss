@@ -75,7 +75,6 @@ body {
     top: 40px;
     display: flex;
     align-items: center;
-    
 
     .discounted-price {
         font-family: $title-font;
@@ -93,8 +92,18 @@ body {
 
 .add-cart {
     position: relative;
+    top: 60px;
+    height: 30px;
+    color: $white;
+    font-family: $body-font;
+    font-weight: 700;
+    font-size: smaller;
     background-color: $dark-cyan;
-    top: 70px;
+    border: 2px;
+    border-radius: 5px;
+
+    // .cart-img {
+    // }
 }
 
 .attribution { 
