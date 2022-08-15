@@ -111,10 +111,10 @@ body {
   top: 90px;
   height: 30px;
   color: white;
+  background-color: #3c8067;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 0.8rem;
-  background-color: #3c8067;
   border: 2px;
   border-radius: 5px;
   display: -webkit-box;
@@ -131,6 +131,13 @@ body {
 .add-cart .cart-img {
   max-width: 10px;
   padding-right: 5px;
+}
+
+.add-cart:hover {
+  cursor: pointer;
+  background-color: #0a4831;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .attribution {
